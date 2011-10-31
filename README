@@ -1,0 +1,17 @@
+Skrypty do obsługi programu DigiTemp do rejestrowania temperatury z wykorzystaniem
+układów FT232RL/DS2480B oraz czujników DS18B20
+=============================================
+tomasz przechlewski, 2011
+
+
+dt2ht.pl -- Formatuj log programu Digitemp do HTML/wykresu PNG
+dt2ht_example.sh -- Odczytaj temperaturę z sensorów a następnie uruchom w odpowiedni sposób dt2ht.pl
+dt_print_example.sh -- Uruchom w odpowiedni sposób dt2ht.pl bez odczytu sensorów
+dt_try.cgi  -- Skrypt CGI odczytujący temperaturę z sensorów/sensora
+dt2png_example.sh -- Przykład uruchmienia dt2ht.pl: generuje wykresy PNG dla 30 dniowej śr. ruchomej
+dt_try_example.sh -- Uruchamia w odpowiedni sposób Digitemp; wynik wyświetla na ekranie
+.digitemp_sensor_names.rc -- plik konfiguracyjny (używany przez dt_try.cgi)
+
+Uwaga: skrypty bynajmniej nie są `ready2use' ale wymagają adaptacji...
+Przykład jest tutaj: http://pinkaccordions.homelinux.org/stats/digitemp.html
+==
